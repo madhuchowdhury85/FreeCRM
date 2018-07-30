@@ -1,5 +1,8 @@
 package library;
 
-public class Dummy {
+public class Dummy 
+{
 
+	//
+	
 }
