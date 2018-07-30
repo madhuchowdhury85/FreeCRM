@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [practicecreatecontact]">
+  <listeners>
+    <listener class-name="listenerPackage.listeners"/>
+  </listeners>
+  <test name="practicecreatecontact(failed)">
+    <classes>
+      <class name="testCases.CreateContacts2">
+        <methods>
+          <include name="verifyContact"/>
+          <include name="createContact"/>
+          <include name="applogin"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- testCases.CreateContacts2 -->
+    </classes>
+  </test> <!-- practicecreatecontact(failed) -->
+</suite> <!-- Failed suite [practicecreatecontact] -->
